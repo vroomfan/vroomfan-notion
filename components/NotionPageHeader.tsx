@@ -24,12 +24,13 @@ const ToggleThemeButton = () => {
   }, [toggleDarkMode])
 
   return (
-    <div
+    <button
       className={cs('breadcrumb', 'button', !hasMounted && styles.hidden)}
+      style={{ border: 'none' }}
       onClick={onToggleTheme}
     >
       {hasMounted && isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
-    </div>
+    </button>
   )
 }
 
