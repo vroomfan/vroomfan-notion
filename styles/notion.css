@@ -57,6 +57,14 @@
   gap: 0.5rem;
 }
 
+.notion-collection-header {
+  display: none;
+}
+
+.notion-list-view .notion-list-item .notion-page-link {
+  pointer-events: none;
+}
+
 .notion-gallery-grid {
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 6vmin;
