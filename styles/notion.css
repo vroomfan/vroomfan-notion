@@ -67,6 +67,10 @@
   display: none;
 }
 
+.notion-list-disc {
+  list-style-type: revert;
+}
+
 .notion-list-view .notion-list-item .notion-page-link {
   pointer-events: none;
 }
